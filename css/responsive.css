@@ -1,0 +1,191 @@
+@media (min-width:320px) and (max-width:767px){
+	.logo{ border:0; padding: 0; width: 160px; }
+	.topNav{ width: 320px; height: 100%; position: fixed; right: -320px; top: 0; background: #d16f00; padding: 30px 0 0 0; margin: 0;}
+	.topNav li{ display: block; margin:0 0 10px 0;}
+	.topNav li a{ color: #000; padding: 6px 20px;}
+	.topNav li a:hover, .topNav li a.activePage{ color: #fff;}
+	.btnMobileNav{ display: block; top: 22px;}
+
+	.homeBanner{ margin: 64px 0 0 0; padding: 30px 20px; background: url(../images/homeBanner.jpg) top center no-repeat; background-size: cover;}
+	.homeBanner > img{ display: none;}
+	.bnrContent{ font-size: 22px; line-height: 30px; transform:none; top: auto; position: relative;}
+	.secWhoweare{ padding: 20px 15px; }
+	.heading3{ font-size: 26px; line-height: 36px; padding: 0 0 20px 0; }
+	
+	.companyHistory{ display: table; }
+	.companyHistory .companyHistoryLeft{ display: table-footer-group; float: none;}
+	.companyHistoryLeft h4{ font-size: 20px; line-height: 26px; padding: 10px; }
+	.companyHistoryLeft p{ padding: 0 10px 20px 10px;}
+	.companyHistory .companyHistoryRight{ display: table-header-group; float: none;}
+
+	.theDifference{ padding: 30px 0;}
+	.theDifference h4{ font-size: 22px; line-height: 28px; padding: 0 0 20px 0; }
+	.differ{ width: 100%; margin:0 0 20px 0;}
+	.differ li{ font-size: 16px; line-height: 22px; margin: 0 0 10px 0; padding: 0 0 0 20px; background-position:0 5px;  }
+	.differ:last-child{ width: 100%; margin:0;}
+
+	.teamList{ overflow: hidden; }
+	.teamList li{ width: 100%; float: left; margin:0 0 20px 0;}
+	.teamList li h4{ font-size: 19px; margin:15px 0 0 0; }
+	.teamList li h5{ font-size: 15px; }
+	.theTeam{ padding: 0; }
+	.flexRow{ flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+	.flexCol{ width: 100%; }
+	.bxWhatWedo{ padding: 30px 15px; position: relative;}
+	.flexCol h4{ font-size: 24px; line-height: 30px; padding: 0 0 10px 0; }
+	.bxWork{ padding: 30px 15px; position: relative;}
+	.bxpastProject{ padding: 30px 15px; position: relative;}
+	.flexCol p{ padding: 0 0 10px 0; }
+	.secCasestudy{ padding: 20px 15px; }
+	.bxCS{ width: 216px; min-height: 250px; margin: 0 10px 20px 10px; }
+	.csImg{ margin: 0 0 15px 0; }
+	.bxCS h4{ font-size: 20px; line-height: 24px; }
+	.bxCS h5{ font-size: 16px; line-height: 20px; }
+
+	.teamLeft{ width: 100%; border-right: 0; }
+	.tList li::after{ right: 0; }
+	.tList li{ padding: 10px; }
+	.teamThumb{ width: 70px; height: 70px; }
+	.tList li h4{ font-size: 20px; margin: 10px 0 0 0; }
+	.tLeft{ width: 100%; margin: 0 0 20px 0;}
+	.tRight{ width: 100%; float: left; overflow: visible; }
+	.teamRight{ padding: 0 30px; display: none;}
+	.serviceLeft{ width: 100%; margin:0 0 10px 0; }
+	.serviceRight{ width: 100%; float: left; overflow: visible; padding: 0 20px; }
+	.serviceRight h4{ font-size: 24px; padding: 0 0 15px 0; }
+	.sBox{ width: 100%; float: left; margin:0 0 20px 0; }
+	.dvWhatweDo{ padding: 30px 0; margin:64px 0 0 0;}
+	.dvServices{ margin:20px 0 0 0; }
+	.dvWhoweare{ padding: 30px 0 0 25px; margin:64px 0 40px 0;}
+	.theDifference.who{ padding: 50px 0; }
+	.historyOuter{ margin:10px 0 0 0; }
+	.historyRight{ display: none; }
+	.historyLeft{ width: 100%; padding: 15px; margin:18px 0 0 0;}
+	.historyLeft::before{ height: 15px; top: -15px;}
+	.historyLeft::after{ width: 15px; top: -15px; left: -15px;}
+	.historyOuter::before{ height: 15px; bottom: -15px;}
+	
+	.dvOurteam{ padding: 30px 0; margin: 64px 0 0 0;}
+	.ourteamAccord{ margin: 0; }
+	.historyLeft h4{ font-size: 20px; line-height: 28px; padding: 0 0 10px 0; }
+	.heading2{ font-size: 26px; line-height: 30px; padding: 0 0 25px 0;}
+	.heading2::after{ top: 40px; }
+	.dvProjectType{ top: auto; }
+	.projectLeft{ margin: 0 0 20px 0; width: 100%; }
+	.projectRight{ width: 100%; float: left; overflow: visible; padding: 0 20px; }
+	.projectRight h4{ font-size: 24px; line-height: 30px; }
+	.pBox{ margin: 0 50px 0 0; }
+	.dvCasestudy{ padding: 30px 0; margin:64px 0 0 0; }
+	.item{ width: 200px; height: 220px; }
+	.csDetails{ padding: 40px 0 0 0; }
+	.csDetailsInner{ display: table; display: none;}
+	.csDetailsLeft{ display: table-footer-group; float: none;}
+	.csDetailsRight{ display: table-header-group; float: none;}
+	.csDetailsLeftInner{ padding: 15px; }
+
+	/*.csDetailsLeft{ padding: 20px; }*/
+	.csDetailsLeft h4{ font-size: 22px; line-height: 30px; }
+	.item h5{ font-size: 16px; padding: 10px 0 5px 0; }
+	.csDetailsLeft p{ font-size: 14px; }
+	.csListLeft{ font-size: 14px; width: 100px;}
+	.csListRight{ font-size: 16px; }
+	.csList li{ margin:0 0 15px 0; }
+	.itemImg{ height: 126px; }
+	.close{ font-size: 50px; line-height: 50px; }
+	.modal-header{ padding: 0 15px; }
+	.tRight h5{ padding: 0 0 10px 0; }
+	.tRight h6{ margin:15px 0 0 0; }
+	.dvProductExample{ padding: 30px 0; margin:64px 0 0 0; }
+	.dvPastproject{ padding: 30px 0; margin:64px 0 0 0; }
+	.dvContactus{ padding: 30px 0; margin:64px 0 0 0; }
+	
+	.contactWrap{ padding: 20px 15px 0 15px; }
+	.contactLeft{ width: 100%; margin:0; }
+	.contactRight{ width: 100%; overflow: visible; float: left;}
+	.bxContact h4{ font-size: 20px; }
+	.bxContact p{ font-size: 15px; }
+	.completedProject{ padding: 0 15px; }
+	.completedProject h3{ font-size: 22px; }
+	.completedProject h4{ font-size: 18px; }
+	.completedProject h5{ font-size: 18px; }
+	.completedProject h6{ font-size: 14px; line-height: 18px; }
+	.bxProject{ width: 100%; padding: 20px 0 0 0;}
+	.pLeft{ width: 100%; margin:0;}
+	.pRight{ width: 100%; }
+	.projectList.mob li{ width: 100%; float: left;}
+	.bxProject2{ width: 100%; padding: 20px 0 0 0;}
+	.historyLeft{ width: 100%; }
+	.historyRight{ display: none; }
+	.differFlex{ display: flex; display: -webkit-flex; flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+	.theDiffer{ padding: 15px; }
+	.theDiffer h4{ font-size: 20px; }
+	.bxDiffer{ width: 100%; margin:0 0 20px 0; padding: 0; }
+	.theDiffer::before{ background: #E07A07 none repeat scroll 0 0; color: transparent; content: "."; height: 70%; bottom: 0; right: 0; position: absolute; width: 15px;}
+	.bxDiffer ul li{ font-size: 16px; padding: 0 0 0 24px; margin:0 0 10px 0; }
+	
+	.fooNav{ display: none; }
+	.copyright{ font-size: 15px; }
+	.designedBy{ font-size: 13px; }
+}
+@media (min-width:768px) and (max-width:1024px){
+	.logo{ border:0; padding: 0; }
+	.topNav{ width: 320px; height: 100%; position: fixed; right: -320px; top: 0; background: #d16f00; padding: 30px 0 0 0; margin: 0;}
+	.topNav li{ display: block; margin:0 0 10px 0;}
+	.topNav li a{ color: #000; padding: 6px 20px;}
+	.topNav li a:hover, .topNav li a.activePage{ color: #fff;}
+	.btnMobileNav{ display: block; }
+
+	.bnrContent{ font-size: 42px; line-height: 54px; }
+	.secWhoweare{ padding: 40px 30px; }
+	.theDifference{ overflow: hidden; }
+	.differ{ width: 50%; margin:0 0 30px 0;}
+	.differ:last-child{ width: 100%; margin:0;}
+
+	.teamList{ overflow: hidden; }
+	.teamList li{ width: 50%; float: left; margin:0 0 40px 0;}
+	.bxWhatWedo{ padding: 15px; }
+	.flexCol h4{ font-size: 24px; line-height: 30px; padding: 0 0 10px 0; }
+	.bxWork{ padding: 15px; }
+	.bxpastProject{ padding: 15px; }
+	.flexCol p{ padding: 0 0 10px 0; }
+	.secCasestudy{ padding: 40px 20px; }
+	.heading3{ padding: 0 0 40px 0; }
+	.bxCS{ width: 216px; min-height: 250px; margin: 0 10px; }
+	.csImg{ margin: 0 0 15px 0; }
+	.bxCS h4{ font-size: 20px; line-height: 24px; }
+	.bxCS h5{ font-size: 16px; line-height: 20px; }
+
+	.teamLeft{ width: 300px; }
+	.tList li{ padding: 10px; }
+	.teamThumb{ width: 70px; height: 70px; }
+	.tList li h4{ font-size: 20px; margin: 10px 0 0 0; }
+	.tLeft{ width: 100%; margin: 0 0 20px 0;}
+	.tRight{ width: 100%; float: left; overflow: visible; }
+	.teamRight{ padding: 0 30px; }
+	.serviceLeft{ width: 100%; margin:0 0 30px 0; }
+	.serviceRight{ width: 100%; float: left; overflow: visible; padding: 0 30px 30px 30px; }
+	.dvProjectType{ top: auto; }
+	.projectLeft{ margin: 0 30px 0 0; width: 220px; }
+	.pBox{ margin: 0 50px 0 0; }
+	.item{ width: 200px; height: 220px; }
+	.csDetails{ padding: 60px 0 0 0; }
+	.csDetailsLeft{ padding: 20px; }
+	.csDetailsLeft h4{ font-size: 28px; line-height: 36px; }
+	.csListLeft{ font-size: 14px; }
+	.csListRight{ font-size: 16px; }
+	.csList li{ margin:0 0 15px 0; }
+	.itemImg{ height: 126px; }
+	.contactWrap{ padding: 0 30px; }
+	.contactLeft{ width: 300px; margin:0 30px 0 0; }
+	.bxProject{ width: 50%; }
+	.pLeft{ width: 100%; margin:0 0 30px 0;}
+	.pRight{ width: 100%; }
+	.projectList.mob li{ width: 50%; float: left; overflow:hidden; }
+	.historyLeft{ width: 100%; }
+	.historyRight{ display: none; }
+	.differFlex{ display: flex; display: -webkit-flex; flex-wrap: wrap; -webkit-flex-wrap: wrap; }
+	.bxDiffer{ width: 50%; margin:0; padding: 0 30px 30px 0; }
+	.theDiffer::before{ background: #E07A07 none repeat scroll 0 0; color: transparent; content: "."; height: 70%; bottom: 0; right: 0; position: absolute; width: 24px;}
+	
+	.fooNav{ display: none; }
+}
